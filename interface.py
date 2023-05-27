@@ -5,7 +5,7 @@ from time import sleep
 turtle = turtle.Turtle()
 main = turtle.screen
 escritor = turtle.clone()
-turtle.speed(5) 
+#turtle.speed(5) 
 escritor.shape('turtle')
 escritor.hideturtle()
 
@@ -270,13 +270,15 @@ while True:
 
     sleep(3)
     escritor.clear()
-'''
+"""
 forca()
 cabeca()
 braco1()
 braco2()
 corpo()
 pernas()
-main.mainloop()
 
+inicio()
+main.mainloop()
+"""
 
